@@ -83,8 +83,7 @@ def accent (audioname):
 </head>
 <body style="background-color:#A5C8E4;">
 <h1 style="font-family:verdana">What instrument is playing? 🎻</h1>
-<div class="tenor-gif-embed" data-postid="16335143" data-share-method="host" data-width="40%" data-aspect-ratio="1.5045317220543806"><a href="https://tenor.com/view/banda-band-instrument-instrumento-bateria-gif-16335143">Banda Instrument GIF</a> from <a href="https://tenor.com/search/banda-gifs">Banda GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script><h2>{result}</h2>
-<form>
+<div class="tenor-gif-embed" data-postid="5330954" data-share-method="host" data-width="100%" data-aspect-ratio="1.7785714285714287"><a href="https://tenor.com/view/aristocats-berlios-piano-tattletale-grumpy-gif-5330954">Aristocats Berlios GIF</a> from <a href="https://tenor.com/search/aristocats-gifs">Aristocats GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script><form>
     <input type="button" value="Go back" onclick="history.back()">
 </form> 
 </body>
