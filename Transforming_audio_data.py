@@ -40,19 +40,19 @@ def predict(audioPath):
 
 def instName(instType):
     if instType == 0:
-        return "We are listening a clarinet."
+        return "We are listening to a clarinet."
     if instType == 1:
-        return "We are listening a distorted electric guitar."
+        return "We are listening to a distorted electric guitar."
     if instType == 2:
-        return "We are listening a female singer."
+        return "We are listening to a female singer."
     if instType == 3:
-        return "We are listening a flute."
+        return "We are listening to a flute."
     if instType == 4:
-        return "We are listening a piano."
+        return "We are listening to a piano."
     if instType == 5:
-        return "We are listening a tenor saxophone."
+        return "We are listening to a tenor saxophone."
     if instType == 6:
-        return "We are listening a trumpet."
+        return "We are listening to a trumpet."
     if instType == 7:
-        return "We are listening a violin."
+        return "We are listening to a violin."
     return "Invalid type of instrument."
