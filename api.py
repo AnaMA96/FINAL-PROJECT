@@ -52,7 +52,7 @@ def upload_file():
 <head>
     <meta charset=“UTF-8">
     <meta name=“viewport” content=“width=device-width, initial-scale=1.0">
-    <title>Neural network tells accents apart</title>
+    <title>Neural Network guess the instrument</title>
 </head>
 <body style="background-color:#A5C8E4;">
 <h1 style="font-family:verdana">What instrument is playing? 🎺</h1>
