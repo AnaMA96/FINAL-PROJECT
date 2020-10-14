@@ -15,7 +15,6 @@ import pandas as pd
 from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
-import speech_recognition as sr
 from keras.models import load_model
 
 def configuredDataFrame(audioPath):
@@ -40,19 +39,19 @@ def predict(audioPath):
 
 def instName(instType):
     if instType == 0:
-        return "We are listening to a clarinet."
+        return "We are listening to a clarinet!"
     if instType == 1:
-        return "We are listening to a distorted electric guitar."
+        return "We are listening to a distorted electric guitar!"
     if instType == 2:
-        return "We are listening to a female singer."
+        return "We are listening to a female singer!"
     if instType == 3:
-        return "We are listening to a flute."
+        return "We are listening to a flute!"
     if instType == 4:
-        return "We are listening to a piano."
+        return "We are listening to a piano!"
     if instType == 5:
-        return "We are listening to a tenor saxophone."
+        return "We are listening to a tenor saxophone!"
     if instType == 6:
-        return "We are listening to a trumpet."
+        return "We are listening to a trumpet!"
     if instType == 7:
-        return "We are listening to a violin."
+        return "We are listening to a violin!"
     return "Invalid type of instrument."

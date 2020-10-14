@@ -55,12 +55,12 @@ def upload_file():
     <title>Neural Network guess the instrument</title>
 </head>
 <body style="background-color:#A5C8E4;">
-<h1 style="font-family:verdana">What instrument is playing? 🎺</h1>
-</p>
+<h1 style="font-family: Palatino">What instrument is playing? 🎺</h1>
+
 <h2> Upload an audio file so the program can try to guess:</h2>
 <form method=post enctype=multipart/form-data>
-      <input type=file name=file style="height:50px; width:90px">
-      <input type=submit value=⬆️UPLOAD style="height:50px; width:90px">
+      <input type=file name=file style="height:50px; width:140px">
+      <input type=submit value=⬆️UPLOAD style="height:30px; width:80px">
     </form>
 <div class="tenor-gif-embed" data-postid="16768803" data-share-method="host" data-width="50%" data-aspect-ratio="1.7978339350180503"><a href="https://tenor.com/view/duck-playing-djembe-djembe-drum-musical-instrument-duck-gif-16768803">Duck Playing Djembe Drum GIF</a> from <a href="https://tenor.com/search/duckplayingdjembe-gifs">Duckplayingdjembe GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 </body>
@@ -82,7 +82,7 @@ def accent (audioname):
     <title>Neural network tells which instrument is playing</title>
 </head>
 <body style="background-color:#A5C8E4;">
-<h1 style="font-family:verdana">What instrument is playing? 🎻</h1>
+<h1 style="font-family:Palatino">My guess is that...</h1>
 <div class="tenor-gif-embed" data-postid="5330954" data-share-method="host" data-width="50%" data-aspect-ratio="1.7785714285714287"><a href="https://tenor.com/view/aristocats-berlios-piano-tattletale-grumpy-gif-5330954">Aristocats Berlios GIF</a> from <a href="https://tenor.com/search/aristocats-gifs">Aristocats GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 <h2>{result}</h2>
 <form>
