@@ -55,7 +55,7 @@ def upload_file():
     <title>Neural Network guess the instrument</title>
 </head>
 <body style="background-color:#A5C8E4;">
-<h1 style="font-family: Palatino">What instrument is playing? 🎺</h1>
+<h1 style="font-family: Palatino">What instrument is playing? 🥁🥁🥁</h1>
 
 <h2> Upload an audio file so the program can try to guess:</h2>
 <form method=post enctype=multipart/form-data>
